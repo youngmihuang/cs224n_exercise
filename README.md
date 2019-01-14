@@ -1,5 +1,5 @@
-# cs224n_exercise
-- 2019 cs224n [course link](http://web.stanford.edu/class/cs224n/index.html)
+# CS224n_exercise
+- Stanford 2019 CS224n:Natural Language Processing with Deep Learning: [course link](http://web.stanford.edu/class/cs224n/index.html)
 
 ## Schedule
 | Due Date | Assignment                         | Done |
