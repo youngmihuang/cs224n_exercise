@@ -20,9 +20,7 @@
 
 * What I have checked: the first result is correct, so I think the problem may not be in the `skipgram` function. The two result printed as following.
 
-  ```
-  ![Issue](./images/02_result_naiveGrad.png)
-  ![Issue](./images/02_result_negSamplingGrad.png)
-  ```
+![Issue](./assignment2/images/02_result_naiveGrad.png)
+![Issue](./assignment2/images/02_result_negSamplingGrad.png)
 
 * Furthermore, I search the concept of **negative sampling in NLP** and I think the problem as following: the way to calculate loss using the positive samples (bcz they used the 1 - negative probability) , make sense or not? 
