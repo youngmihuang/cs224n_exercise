@@ -5,7 +5,7 @@
 | Due Date | Assignment                         | Done |
 | :------- | ---------------------------------- | ---- |
 | 1/15     | Assignment1: exploring word vector | V    |
-| 1/22     | Assignment2                        | V    |
+| 1/22     | Assignment2: word2vec              | V    |
 | 1/29     | Assignment3                        |      |
 | 2/7      | Assignment4                        |      |
 | 2/21     | Assignment5                        |      |
@@ -14,7 +14,9 @@
 
 ## Issue 
 
-(open) 1/20: In `word2vec.py`  Skip-Gram with negSamplingLossAndGradient function, my result of loss, gradCenterVec, gradOutsideVecs not close to the expected value as TA given, can anyone give me some advice? Is there any tiny problem that I ignored? Thanks. 
+(open) 2019/1/20: 
+
+In `assignment2/word2vec.py`,  my result of loss, gradCenterVec, gradOutsideVecs using **Skip-Gram with negSamplingLossAndGradient**,  not close to the expected value as TA given, can anyone give me some advice? Is there any tiny problem that I ignored?  Thanks. 
 
 ```
 Skip-Gram with negSamplingLossAndGradient
@@ -51,7 +53,9 @@ Gradient wrt Center Vectors (dJ/dV):
 
 
 
-* What I have checked: the first result is correct, so I think the problem may not be in the `skipgram` function. 
+- Furthermore, I search the concept of **negative sampling in NLP** and I am considering of the problem as following: the way to calculate loss using the positive samples (bcz they used the 1 - negative probability) , make sense or not?
+
+* What I have checked: the result using Skip-Gram with naiveSoftmaxLossAndGradient is correct, so I think the problem may not be in the `skipgram` function. 
 
 ```
 === Results ===
@@ -86,8 +90,4 @@ Gradient wrt Outside Vectors (dJ/dU):
  [ 0.09472154 -0.04346509 -0.33062865]
  [-0.13638384  0.06258276  0.47605228]]
 ```
-
-
-
-* Furthermore, I search the concept of **negative sampling in NLP** and I am considering of the problem as following: the way to calculate loss using the positive samples (bcz they used the 1 - negative probability) , make sense or not?
 
