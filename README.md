@@ -55,7 +55,7 @@ Gradient wrt Center Vectors (dJ/dV):
 
 - Furthermore, I search the concept of **negative sampling in NLP** and I am considering of the problem as following: the way to calculate loss using the positive samples (bcz they used the 1 - negative probability) , make sense or not?
 
-* What I have checked: the result using Skip-Gram with naiveSoftmaxLossAndGradient is correct, so I think the problem may not be in the `skipgram` function. 
+* What I have checked: the result using **Skip-Gram with naiveSoftmaxLossAndGradient** is CORRECT, so I think the problem may not be in the `skipgram` function. 
 
 ```
 === Results ===
