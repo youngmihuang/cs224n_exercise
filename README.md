@@ -16,7 +16,7 @@
 
 (close) 2019/1/20: **TA just update the test result of this example.**
 
-The DIFFERENCE is: if you test the results before running on Stanford Sentiment Treebank as I did, you will got LOSS= 16.15119285363322; after `python run.py` and turn back to run `python word2vec.py`, you will get LOSS = 14.3018669327.
+The DIFFERENCE is: if you test the results before running on Stanford Sentiment Treebank as I did, you will get LOSS= 16.15119285363322; once you run `python run.py` and turn back running `python word2vec.py`, you will get LOSS = 14.3018669327. Be careful!
 
 --Original topic--
 
