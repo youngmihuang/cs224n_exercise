@@ -14,9 +14,13 @@
 
 ## Issue 
 
-(open) 2019/1/20: 
+(close) 2019/1/20: **TA just update the test result of this example.**
 
-In `assignment2/word2vec.py`,  my result of loss, gradCenterVec, gradOutsideVecs using **Skip-Gram with negSamplingLossAndGradient**,  not close to the expected value as TA given, can anyone give me some advice? Is there any tiny problem that I ignored?  Thanks. 
+The DIFFERENCE is: if you test the results before running on Stanford Sentiment Treebank as I did, you will got LOSS= 16.15119285363322; after `python run.py` and turn back to run `python word2vec.py`, you will get LOSS = 14.3018669327.
+
+--Original topic--
+
+In `assignment2/word2vec.py`,  my result of loss, gradCenterVec, gradOutsideVecs using **Skip-Gram with negSamplingLossAndGradient**,  not close to the expected value as TA given, can anyone give me some advice? Is there any tiny problem that I ignored?  Thanks.  
 
 ```
 Skip-Gram with negSamplingLossAndGradient
@@ -51,43 +55,4 @@ Gradient wrt Center Vectors (dJ/dV):
  [-0.64496237  0.29595533  2.25126239]]
 ```
 
-
-
-- Furthermore, I search the concept of **negative sampling in NLP** and I am considering of the problem as following: the way to calculate loss using the positive samples (bcz they used the 1 - negative probability) , make sense or not?
-
-* What I have checked: the result using **Skip-Gram with naiveSoftmaxLossAndGradient** is CORRECT, so I think the problem may not be in the `skipgram` function. 
-
-```
-=== Results ===
-Skip-Gram with naiveSoftmaxLossAndGradient
-Your Result:
-Loss: 11.16610900153398
-Gradient wrt Center Vectors (dJ/dV):
- [[ 0.          0.          0.        ]
- [ 0.          0.          0.        ]
- [-1.26947339 -1.36873189  2.45158957]
- [ 0.          0.          0.        ]
- [ 0.          0.          0.        ]]
-Gradient wrt Outside Vectors (dJ/dU):
- [[-0.41045956  0.18834851  1.43272264]
- [ 0.38202831 -0.17530219 -1.33348241]
- [ 0.07009355 -0.03216399 -0.24466386]
- [ 0.09472154 -0.04346509 -0.33062865]
- [-0.13638384  0.06258276  0.47605228]]
-
-Expected Result: Value should approximate these:
-Loss: 11.16610900153398
-Gradient wrt Center Vectors (dJ/dV):
- [[ 0.          0.          0.        ]
- [ 0.          0.          0.        ]
- [-1.26947339 -1.36873189  2.45158957]
- [ 0.          0.          0.        ]
- [ 0.          0.          0.        ]]
-Gradient wrt Outside Vectors (dJ/dU):
- [[-0.41045956  0.18834851  1.43272264]
- [ 0.38202831 -0.17530219 -1.33348241]
- [ 0.07009355 -0.03216399 -0.24466386]
- [ 0.09472154 -0.04346509 -0.33062865]
- [-0.13638384  0.06258276  0.47605228]]
-```
-
+- Furthermore, I search the concept of **negative sampling in NLP** and I am considering of the problem as following: the way to calculate loss using the positive samples (bcz they used the 1 - negative probability) , make sense or not?  **Yes**
