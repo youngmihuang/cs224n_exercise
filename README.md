@@ -4,9 +4,9 @@
 ## Schedule
 | Due Date | Assignment                         | Done |
 | :------- | ---------------------------------- | ---- |
-| 1/15     | Assignment1: exploring word vector | V    |
-| 1/22     | Assignment2: word2vec              | V    |
-| 1/29     | Assignment3                        |      |
+| 1/15     | Assignment1: Exploring Word Vector | V    |
+| 1/22     | Assignment2: Word2vec              | V    |
+| 1/29     | Assignment3: Dependency Parsing    | V    |
 | 2/7      | Assignment4                        |      |
 | 2/21     | Assignment5                        |      |
 
