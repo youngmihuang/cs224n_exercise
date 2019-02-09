@@ -4,8 +4,7 @@
 """
 CS224N 2018-19: Homework 4
 nmt.py: NMT Model
-Pencheng Yin <pcyin@cs.cmu.edu>
-Sahil Chopra <schopra8@stanford.edu>
+Editor: Youngmi Huang
 """
 
 import math
