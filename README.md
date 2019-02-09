@@ -2,19 +2,21 @@
 - Stanford 2019 CS224n:Natural Language Processing with Deep Learning: [course link](http://web.stanford.edu/class/cs224n/index.html)
 
 ## Schedule
-| Due Date | Assignment                         | Done |
-| :------- | ---------------------------------- | ---- |
-| 1/15     | Assignment1: Exploring Word Vector | V    |
-| 1/22     | Assignment2: Word2vec              | V    |
-| 1/29     | Assignment3: Dependency Parsing    | V    |
-| 2/7      | Assignment4                        |      |
-| 2/21     | Assignment5                        |      |
+| Due Date | Assignment                                       | Done |
+| :------- | ------------------------------------------------ | ---- |
+| 1/15     | Assignment1: Exploring Word Vector               | V    |
+| 1/22     | Assignment2: Word2vec                            | V    |
+| 1/29     | Assignment3: Dependency Parsing                  | V    |
+| 2/7      | Assignment4: Neural Machine Traslation with RNNs | V    |
+| 2/21     | Assignment5                                      |      |
 
 
 
 ## Issue 
 
-(close) 2019/1/20: **TA just update the test result of this example.**
+(NOTE) 2019/2/9: **PASS** all test in `sanity_check.py` (1d, 1e, 1f) , not finish the VM section in GPU.
+
+(CLOSE) 2019/1/20: **TA just update the test result of this example.**
 
 The DIFFERENCE is: if you test the results before running on Stanford Sentiment Treebank as I did, you will get LOSS= 16.15119285363322; once you run `python run.py` and turn back running `python word2vec.py`, you will get LOSS = 14.3018669327. Be careful!
 
