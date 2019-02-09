@@ -4,7 +4,11 @@
 """
 CS224N 2018-19: Homework 4
 model_embeddings.py: Embeddings for the NMT model
-Editor: Youngmi Huang(cyeninesky3@gmail.com)
+Editor: 
+Pencheng Yin <pcyin@cs.cmu.edu>
+Sahil Chopra <schopra8@stanford.edu>
+Anand Dhoot <anandd@stanford.edu>
+Youngmi Huang <cyeninesky3@gmail.com>
 """
 
 import torch.nn as nn

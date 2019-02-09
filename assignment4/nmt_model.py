@@ -4,7 +4,10 @@
 """
 CS224N 2018-19: Homework 4
 nmt_model.py: NMT Model
-Editor: Youngmi Huang(cyeninesky3@gmail.com)
+Editor: 
+Pencheng Yin <pcyin@cs.cmu.edu>
+Sahil Chopra <schopra8@stanford.edu>
+Youngmi Huang <cyeninesky3@gmail.com>
 """
 from collections import namedtuple
 import sys
