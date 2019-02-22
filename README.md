@@ -2,13 +2,13 @@
 - Stanford 2019 CS224n:Natural Language Processing with Deep Learning: [course link](http://web.stanford.edu/class/cs224n/index.html)
 
 ## Schedule
-| Due Date | Assignment                                       | Done |
-| :------- | ------------------------------------------------ | ---- |
-| 1/15     | Assignment1: Exploring Word Vector               | V    |
-| 1/22     | Assignment2: Word2vec                            | V    |
-| 1/29     | Assignment3: Dependency Parsing                  | V    |
-| 2/7      | Assignment4: Neural Machine Traslation with RNNs | V    |
-| 2/21     | Assignment5                                      |      |
+| Due Date | Assignment                                                   | Done |
+| :------- | ------------------------------------------------------------ | ---- |
+| 1/15     | Assignment1: Exploring Word Vector                           | V    |
+| 1/22     | Assignment2: Word2vec                                        | V    |
+| 1/29     | Assignment3: Dependency Parsing                              | V    |
+| 2/7      | Assignment4: Neural Machine Traslation with RNNs             | V    |
+| 2/22     | Assignment5: NMT system with Convolution encoder and LSTM decoder     (requires Stanford login) | --   |
 
 
 
